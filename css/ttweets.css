@@ -1,0 +1,58 @@
+#ttweet_list {
+    margin: 0 5px;
+    padding: 0;
+    text-align: left;
+    /* removing for now
+    overflow: auto;
+    height: 400px;
+    max-width: 250px;
+    */
+}
+
+#ttweet_list li {
+    list-style-type: none;
+    margin: 4px 0 4px 0;
+    float: left;
+}
+
+#ttweet_list li img {
+    width: 24px;
+    height: 24px;
+}
+
+#ttweet_list li div.tt_avatar {
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+#ttweet_list li div.msg {
+    margin: 0px 0px 0px 30px;
+}
+
+#ttweet_list p.clear {
+    clear: left;
+    margin: 2px;
+    padding: 2px;
+}
+
+div.msg small a:link {
+    text-decoration: none;
+}
+
+#tt_kw {
+    cursor: pointer;
+}
+
+#tt_kw_inp {
+    width: 50px;
+    font-size: 10px;
+}
+
+#tt_kw_btn {
+    font-size: 10px;
+}
+
+.tt_slink {
+    clear: left;
+}
